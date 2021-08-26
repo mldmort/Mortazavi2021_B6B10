@@ -1,2 +1,21 @@
 # Mortazavi2021_B6B10
-Analysis codes and figures for Mortazavi et. al. 2021 C57BL/6 and C57BL/10 substrains.
+**Polymorphic SNPs, short tandem repeats and structural variants cause differential gene expression among inbred C57BL/6 and C57BL/10 substrains**
+***
+
+1. Clone the repository
+2. `cd Mortazavi2021_B6B10`
+3. `mkdir data`
+4. Download the data [here](https://drive.google.com/drive/folders/1g6WIabQRq3H0IpUBDZSswbRIbpRDYjY6?usp=sharing) into the folder `data`
+
+## Circos plots
+Programs needed:
+```
+bcftools
+vcftools
+circos
+```
+How to run:
+1. `cd circos_plots`
+2. `bash cmd_prepare_data.sh`
+3. `bash cmd_run_circos.sh`
+***
