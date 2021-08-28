@@ -19,3 +19,18 @@ How to run:
 2. `bash cmd_prepare_data.sh`
 3. `bash cmd_run_circos.sh`
 ***
+
+## Association tests
+```
+python modules needed:
+pandas
+numpy
+matplotlib
+statsmodels
+limix
+```
+How to run:
+1. `cd associations`
+2. `python run_tests.py`
+3. `bash cmd_get_significant.sh`
+***
