@@ -34,3 +34,15 @@ How to run:
 2. `python run_tests.py`
 3. `bash cmd_get_significant.sh`
 ***
+
+## RNA data analysis
+```
+python modules needed:
+pandas
+
+R packages needed:
+edgeR
+```
+How to run:
+1. `cd rna_analysis`
+2. `bash cmd_run_analysis.sh`
