@@ -46,3 +46,14 @@ edgeR
 How to run:
 1. `cd rna_analysis`
 2. `bash cmd_run_analysis.sh`
+
+## Dendrogram
+```
+programs needed:
+plink 1.9
+```
+How to prepare files:
+1. `cd dendrogram`
+2. `bash cmd_prepare_files.sh`
+
+To generate dendrogram plot refer to `dendrogram.ipynb` in `Colab_Notebooks`
