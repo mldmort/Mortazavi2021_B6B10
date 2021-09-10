@@ -5,7 +5,7 @@
 1. Clone the repository
 2. `cd Mortazavi2021_B6B10`
 3. `mkdir data`
-4. Download the data needed from [here](https://drive.google.com/drive/folders/1g6WIabQRq3H0IpUBDZSswbRIbpRDYjY6?usp=sharing) into the folder `data`
+4. Download the data needed from [here](https://data.mendeley.com/drafts/39sw8xcrmv) into the folder `data`
 
 ## Circos plots
 ```
@@ -23,7 +23,7 @@ merged_cnv_lumpy_SVs_sorted.vcf.gz
 anova_b6b10_normalized_CPM1.txt
 ```
 How to run:
-1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+1. Download the files needed above from [here](https://data.mendeley.com/drafts/39sw8xcrmv) to a directory named `Mortazavi2021_B6B10/data`
 2. `cd circos_plots`
 3. `bash cmd_prepare_data.sh`
 4. `bash cmd_run_circos.sh`
@@ -52,7 +52,7 @@ NoInters_SVs_closestGene.bed
 NoInters_STRs_closestGene.bed
 ```
 How to run:
-1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+1. Download the files needed above from [here](https://data.mendeley.com/drafts/39sw8xcrmv) to a directory named `Mortazavi2021_B6B10/data`
 2. `cd associations`
 3. `python run_tests.py`
 4. `bash cmd_get_significant.sh`
@@ -74,7 +74,7 @@ Mus_musculus.GRCm38.84.all_exons.merged.sizes.txt
 ensembl_symbol.txt
 ```
 How to run:
-1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+1. Download the files needed above from [here](https://data.mendeley.com/drafts/39sw8xcrmv) to a directory named `Mortazavi2021_B6B10/data`
 2. `cd rna_analysis`
 3. `bash cmd_run_analysis.sh`
 
@@ -90,7 +90,7 @@ ALL_chrom_hipstr.vcf
 merged_cnv_lumpy_SVs_sorted.vcf.gz
 ```
 How to prepare files:
-1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+1. Download the files needed above from [here](https://data.mendeley.com/drafts/39sw8xcrmv) to a directory named `Mortazavi2021_B6B10/data`
 2. `cd dendrogram`
 3. `bash cmd_prepare_files.sh`
 
