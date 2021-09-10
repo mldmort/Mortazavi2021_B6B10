@@ -14,10 +14,19 @@ bcftools
 vcftools
 circos
 ```
+Files needed:
+```
+speedseqsnp30x_merged_realigned_region_snp_no_Het.vcf
+speedseqsnp30x_merged_realigned_region_indel_no_Het.vcf
+ALL_chrom_hipstr.vcf
+merged_cnv_lumpy_SVs_sorted.vcf.gz
+anova_b6b10_normalized_CPM1.txt
+```
 How to run:
-1. `cd circos_plots`
-2. `bash cmd_prepare_data.sh`
-3. `bash cmd_run_circos.sh`
+1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+2. `cd circos_plots`
+3. `bash cmd_prepare_data.sh`
+4. `bash cmd_run_circos.sh`
 ***
 
 ## Association tests
