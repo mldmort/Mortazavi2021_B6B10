@@ -5,11 +5,11 @@
 1. Clone the repository
 2. `cd Mortazavi2021_B6B10`
 3. `mkdir data`
-4. Download the data [here](https://drive.google.com/drive/folders/1g6WIabQRq3H0IpUBDZSswbRIbpRDYjY6?usp=sharing) into the folder `data`
+4. Download the data needed from [here](https://drive.google.com/drive/folders/1g6WIabQRq3H0IpUBDZSswbRIbpRDYjY6?usp=sharing) into the folder `data`
 
 ## Circos plots
-Programs needed:
 ```
+Programs needed:
 bcftools
 vcftools
 circos
@@ -66,17 +66,32 @@ pandas
 R packages needed:
 edgeR
 ```
+Files needed:
+```
+b6b10_rnaseq_raw.txt
+b6b10_rnaseq_ids.txt
+Mus_musculus.GRCm38.84.all_exons.merged.sizes.txt
+ensembl_symbol.txt
+```
 How to run:
-1. `cd rna_analysis`
-2. `bash cmd_run_analysis.sh`
+1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+2. `cd rna_analysis`
+3. `bash cmd_run_analysis.sh`
 
 ## Dendrogram
 ```
 programs needed:
 plink 1.9
 ```
+Files needed:
+```
+speedseqsnp30x_merged_realigned_region_snp_no_Het.vcf
+ALL_chrom_hipstr.vcf
+merged_cnv_lumpy_SVs_sorted.vcf.gz
+```
 How to prepare files:
-1. `cd dendrogram`
-2. `bash cmd_prepare_files.sh`
+1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+2. `cd dendrogram`
+3. `bash cmd_prepare_files.sh`
 
 To generate dendrogram plot refer to `dendrogram.ipynb` in `Colab_Notebooks`
