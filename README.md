@@ -29,10 +29,24 @@ matplotlib
 statsmodels
 limix
 ```
+Files needed:
+```
+K_chr*.csv
+anova_b6b10_normalized_CPM1.txt
+rpkm_b6b10_normalized_CPM1.txt
+gene_cnv_pair.bed
+SV_feature_pair.bed
+STR_feature_pair.bed
+vep_lof.bed
+vep_mis.bed
+NoInters_SVs_closestGene.bed
+NoInters_STRs_closestGene.bed
+```
 How to run:
-1. `cd associations`
-2. `python run_tests.py`
-3. `bash cmd_get_significant.sh`
+1. Download the files needed above from here to a directory named `Mortazavi2021_B6B10/data`
+2. `cd associations`
+3. `python run_tests.py`
+4. `bash cmd_get_significant.sh`
 ***
 
 ## RNA data analysis
