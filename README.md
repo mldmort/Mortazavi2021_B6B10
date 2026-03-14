@@ -1,5 +1,8 @@
 # Mortazavi2021_B6B10
-**Polymorphic SNPs, short tandem repeats and structural variants cause differential gene expression among inbred C57BL/6 and C57BL/10 substrains**
+[![DOI](https://zenodo.org/badge/399958899.svg)](https://doi.org/10.5281/zenodo.5716284) <br>
+This repository contains analysis codes and figures for manuscript:<br>
+*SNPs, short tandem repeats, and structural variants are responsible for differential gene expression across C57BL/6 and C57BL/10 substrains.*<br>
+[Mortazavi *et. al.* 2022, Cell Genomics](https://www.cell.com/cell-genomics/fulltext/S2666-979X(22)00019-2)
 ***
 
 1. Clone the repository
